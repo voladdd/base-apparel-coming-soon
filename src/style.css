@@ -43,7 +43,7 @@ h1 {
 .button-container {
   cursor: pointer;
   background: var(--gradient-second);
-  width: max(10%, 64px);
+  width: max(10%, 80px);
   border-radius: 20px;
   border: 0px;
   filter: drop-shadow(5px 10px 20px var(--color-desaturated));
