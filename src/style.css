@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+
+:root {
+  --gradient-main: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+  --gradient-second: linear-gradient(
+    135deg,
+    hsl(0, 80%, 86%),
+    hsl(0, 74%, 74%)
+  );
+  --color-neutral: hsl(0, 6%, 24%);
+  --color-soft: hsl(0, 93%, 68%);
+  --color-desaturated: hsl(0, 36%, 70%);
+}
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.thin-purple {
+  font-weight: 300;
+  color: var(--color-desaturated);
+}
+
+.medium-purple {
+  font-weight: 400;
+  color: var(--color-desaturated);
+}
+
+.medium-purple::placeholder {
+  color: var(--color-desaturated);
+}
+
+h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+/* CUSTOM BUTTON */
+
+.button-container {
+  background: var(--gradient-second);
+  width: 16%;
+  border-radius: 20px;
+  display: flex;
+}
+
+.button-container img {
+  padding: 12px;
+  margin: 0 auto;
+  display: block;
+}
