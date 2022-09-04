@@ -121,11 +121,19 @@
   color: var(--color-desaturated);
 }
 
-#message-error {
+#message-error,
+#message-success {
   margin: 4% 0;
   width: 100%;
   padding-left: 5%;
   text-align: start;
+}
+
+#message-error {
+  color: var(--color-soft);
+}
+
+#message-success a {
   color: var(--color-soft);
 }
 
