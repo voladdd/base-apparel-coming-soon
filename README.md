@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [here](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-pljG-RsxMf)
-- Live Site URL: [here](https://voladdd.github.io/base-apparel-coming-soon/)
+- Live Site URL: [here](https://voladdd.github.io/lgp-base-apparel-coming-soon/)
 
 ## My process
 
